@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ortiz Quesada">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form action="" method="get">
+        <p><label for="nombre">Nombre:<input type="text" name="nombre"></label></p>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" name="nombre" id="nombre">
+        <p>
+            <label for="css">CSS</label>
+            <input type="checkbox" name="css" id="css">
+            <label for="html">HTML</label>
+            <input type="checkbox" name="html" id="html">
+        </p>
+        <p>
+            Sexo:
+            <input type="radio" name="llmm" id="css">
+            <label for="">Hombre</label>
+            <input type="radio" name="llmm" id="html">
+            <label for="">Mujer</label>
+        </p>
+        <p>
+            <label for="fecha">Fecha:
+                <input type="date" name="fecha" id="fecha"></label>
+        </p>
+        <p>
+            <label for="asignaturas">Módulos:
+                <select name="asignaturas" id="asignaturas">
+                    <option value="seleccionar">seleccionar</option>
+                    <option value="SI">SI</option>
+                    <option value="BBDD">BBDD</option>
+                    <option value="PGN">PGN</option>
+                    <option value="EED">EED</option>
+                    <option value="FOL">FOL</option>
+                </select>
+            </label>
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="borrar">
+        </p>
+    </form>
+</body>
+</html>

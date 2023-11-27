@@ -1,0 +1,40 @@
+/* Manuel Ortiz Quesada */
+
+body{
+    background-color: #d5badd;
+    color: rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.bbdd{
+    background-color: blueviolet;
+    color: burlywood;
+}
+
+table{
+    width: 100%;
+    font-weight: bold;
+    border: #948f8f;
+    border: thick double rgb(184, 86, 50)
+
+}
+
+td{
+    width: 1%;
+    border: thick solid 
+}
+
+caption{
+    background-color: #eeee7d;
+}
+
+.side{
+    background-color: #eeee7d;
+    color: rgb(184, 86, 50);
+}
+
+.si{
+    background-color: aquamarine;
+    color: rgb(105, 50, 157);
+}
