@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="ortiz quesada">
+    <title>Formulario de Prueba HTML5</title>
+</head>
+
+<body>
+    <form action="" method="GET">
+        <h1>Formulario de prueba de HTML5</h1>
+        <p>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required autofocus>
+        </p>
+        <p>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+        </p>
+        <p>
+            <label for="url">URL:</label>
+            <input type="url" id="url" name="url" placeholder="Escribe la URL de tu página web personal">
+        </p>
+        <p>
+            <label for="ciudad">Ciudad:</label>
+            <select id="ciudad" name="ciudad">
+                <option value="sevilla" selected>Sevilla</option>
+                <option value="cadiz">Cádiz</option>
+                <option value="cordoba">Córdoba</option>
+                <option value="granada">Granada</option>
+                <option value="huelva">Huelva</option>
+                <option value="jaen">Jaén</option>
+                <option value="malaga">Málaga</option>
+                <option value="almeria">Almería</option>
+            </select>
+        </p>
+        <p>
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha">
+        </p>
+        <p>
+            <label for="tiempo">Tiempo:</label>
+            <input type="time" id="tiempo" name="tiempo">
+        </p>
+        <p>
+            <label for="fecha-hora">Fecha y hora:</label>
+            <input type="datetime-local" id="fecha-hora" name="fecha-hora">
+        </p>
+        <p>
+            <label for="mes">Mes:</label>
+            <input type="month" id="mes" name="mes">
+        </p>
+        <p>
+            <label for="semana">Semana:</label>
+            <input type="week" id="semana" name="semana">
+        </p>
+        <p>
+            <label for="numero">Número:</label>
+            <input type="number" id="numero" name="numero" min="-10" max="10">
+        </p>
+        <p>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+        </p>
+        <p>
+            <label for="termino-busqueda">Término de búsqueda:</label>
+            <input type="search" id="termino-busqueda" name="termino-busqueda">
+        </p>
+        <p>
+            <label for="color">Color favorito:</label>
+            <input type="color" id="color" name="color">
+        </p>
+        <p>
+            <label for="aficiones">Aficiones:</label>
+            <input type="checkbox" id="cine" name="aficiones" value="cine" checked>
+            <label for="cine">Cine</label>
+            <input type="checkbox" id="deporte" name="aficiones" value="deporte">
+            <label for="deporte">Deporte</label>
+        </p>
+        <p>
+            <label for="forma-pago">Forma de pago:</label>
+            <input type="radio" id="visa" name="forma-pago" value="V">
+            <label for="visa">Visa</label>
+            <input type="radio" id="amex" name="forma-pago" value="A">
+            <label for="amex">Amex</label>
+            <input type="radio" id="mastercard" name="forma-pago" value="M">
+            <label for="mastercard">Mastercard</label>
+        </p>
+        <p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar datos</button>
+        </p>
+    </form>
+</body>
+
+</html>
