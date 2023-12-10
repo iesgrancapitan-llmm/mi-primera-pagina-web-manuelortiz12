@@ -1,0 +1,27 @@
+a{
+    color: red;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: red;
+    color: white;
+}
+
+a:active{
+    color: orange;
+    text-decoration: none;
+    background-color: white;
+}
+
+a:visited{
+    color: darkgreen;
+    background-color: white;
+    text-decoration: none;
+}
+
+a:focus{
+    color: blue;
+    background-color: white;
+    text-decoration: underline;
+}
