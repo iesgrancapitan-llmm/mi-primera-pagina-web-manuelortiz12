@@ -1,0 +1,16 @@
+h1 {
+    border-bottom: 2px solid blue;
+}
+
+h2 {
+    border: 2px solid grey;
+}
+
+ul:first-of-type {
+    border-top: 4px dotted red;
+    border-bottom: 4px dotted red;
+}
+
+ul:last-of-type {
+    border: 2px dashed rgb(0, 255, 0);
+}

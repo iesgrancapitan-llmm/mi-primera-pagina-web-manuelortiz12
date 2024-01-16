@@ -1,0 +1,30 @@
+h1 {
+    border: 2px solid blue;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+h2 {
+    border: 2px solid grey;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+ul {
+    border: 2px solid rgb(0, 255, 0);
+}
+
+body {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+li {
+    margin-bottom: 0px;
+}
+
+li + li {
+    margin-top: 15px;
+}
