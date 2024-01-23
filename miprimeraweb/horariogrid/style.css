@@ -1,0 +1,171 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr) ;
+    grid-template-areas:
+        "titulo     titulo      titulo      titulo      titulo      titulo"
+        "nada       dia1        dia2        dia3        dia4        dia5"
+        "hora1      si-l        llmm-m      eed-x       fol-j       fol-v"
+        "hora2      si-l        llmm-m      eed-x       si-j        fol-v"
+        "hora3      pg-l        si-m        llmm-x      si-j        bbdd-v"
+        "hora4      recreo      recreo      recreo      recreo      recreo"
+        "hora5      pg-l        si-m        llmm-x      eed-j       bbdd-v"
+        "hora6      bbdd-l      pg-m        bbdd-x      pg-j        pg-v"
+        "hora7      bbdd-l      pg-m        bbdd-x      pg-j        pg-v";
+}
+
+.fol-j {
+    grid-area: fol-j;
+}
+
+.fol-v {
+    grid-area: fol-v;
+}
+
+.eed-x {
+    grid-area: eed-x;
+}
+
+.eed-j {
+    grid-area: eed-j;
+}
+
+.llmm-m {
+    grid-area: llmm-m;
+}
+
+.llmm-x {
+    grid-area: llmm-x;
+}
+
+.recreo {
+    grid-area: recreo;
+}
+
+.bbdd-l {
+    grid-area: bbdd-l;
+}
+
+.bbdd-x {
+    grid-area: bbdd-x;
+}
+
+.bbdd-v {
+    grid-area: bbdd-l;
+}
+
+.si-l {
+    grid-area: si-l;
+}
+
+.si-m {
+    grid-area: si-m;
+}
+
+.si-j {
+    grid-area: si-j;
+}
+
+.pg-l {
+    grid-area: pg-l;
+}
+
+.pg-m {
+    grid-area: pg-m;
+}
+
+.pg-j {
+    grid-area: pg-j;
+}
+
+.pg-v {
+    grid-area: pg-v;
+}
+
+.titulo {
+    background-color: #eeee7d;
+    grid-area: titulo;
+}
+
+.dia1 {
+    grid-area: dia1;
+}
+
+.dia2 {
+    grid-area: dia2;
+}
+
+.dia3 {
+    grid-area: dia3;
+}
+
+.dia4 {
+    grid-area: dia4;
+}
+
+.dia5 {
+    grid-area: dia5;
+}
+
+.hora1 {
+    grid-area: hora1;
+}
+
+.hora2 {
+    grid-area: hora2;
+}
+
+.hora3 {
+    grid-area: hora3;
+}
+
+.hora4 {
+    grid-area: hora4;
+}
+
+.hora5 {
+    grid-area: hora5;
+}
+
+.hora6 {
+    grid-area: hora6;
+}
+
+.hora7 {
+    grid-area: hora7;
+}
+
+
+.diahora{
+    background-color: #eeee7d;
+    color: rgb(184, 86, 50);
+}
+
+.si{
+    background-color: aquamarine;
+    color: rgb(105, 50, 157);
+}
+
+.pg{
+    background-color: #366959;
+    color: #f7bd56;
+}
+
+.llmm{
+    background-color: #e3d7bf;
+    color: #553d2a;
+}
+
+.fol{
+    background-color: #b2d3b4;
+    color: #78866B;
+}
+
+.eed{
+    background-color: #77bcbd;
+    color: #003777;
+}
+
+.bbdd{
+    background-color: blueviolet;
+    color: burlywood;
+}
