@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Github Pages</title>
+  <link href="https://solid-spork-wo5619r.pages.github.io" />
+  <subtitle>Mi Github pages</subtitle>
+  <language>es-es</language>
+  <category term="NOTICIAS" />
+
+  <entry>
+    <title>Fekir, el 'falso nueve' al que tientan desde Arabia</title>
+    <link href="https://www.marca.com/futbol/betis/2024/01/28/65b6368c22601d6d5d8b459f.html" />
+    <id>https://www.marca.com/futbol/betis/2024/01/28/65b6368c22601d6d5d8b459f.html</id>
+    <summary>El francés jugó casi un año después de su grave lesión de rodilla su primer partido como titular en LaLiga cambiando de posición</summary>
+    <published>2024-01-28T17:12:00Z</published>
+    <author>
+      <name>Miguel A. Morán</name>
+      <email>miguelamoran@gmail.com</email>
+    </author>
+  </entry>
+
+  <entry>
+    <title>La UE acuerda endurecer la ley de aguas residuales por la que España ya paga una fuerte multa</title>
+    <link href="https://elpais.com/clima-y-medio-ambiente/2024-01-29/la-ue-acuerda-endurecer-la-ley-de-aguas-residuales-por-la-que-espana-ya-paga-una-fuerte-multa.html" />
+    <id>https://elpais.com/clima-y-medio-ambiente/2024-01-29/la-ue-acuerda-endurecer-la-ley-de-aguas-residuales-por-la-que-espana-ya-paga-una-fuerte-multa.html</id>
+    <summary>La Eurocámara y el Consejo de la UE llegan a un acuerdo, todavía por ratificar, que actualiza la normativa sobre recogida, tratamiento y vertido de aguas residuales urbanas, una ley por la que la Comisión volvió a llevar a España ante la justicia europea en diciembre</summary>
+    <published>2024-01-29T00:08:00Z</published>
+    <author>
+      <name>Silvia Ayuso</name>
+      <email>silviayuso@gmail.com</email>
+    </author>
+  </entry>
+
+  <entry>
+    <title>El ser humano no está hecho para correr, sino para descansar. Al menos según un profesor de Harvard</title>
+    <link href="https://www.xataka.com/medicina-y-salud/ser-humano-no-esta-hecho-para-correr-sino-para-descansar-al-profesor-harvard" />
+    <id>https://www.xataka.com/medicina-y-salud/ser-humano-no-esta-hecho-para-correr-sino-para-descansar-al-profesor-harvard</id>
+    <summary>Hay razones evolutivas que nos hacen querer ahorrar energía. Entenderlas nos ayuda a estar en forma</summary>
+    <published>2024-01-29T21:30:00Z</published>
+    <author>
+      <name>Javier Jiménez</name>
+      <email>javierjimenez@gmail.com</email>
+    </author>
+  </entry>
+
+  <entry>
+    <title>Los mejores y más completos auriculares Bluetooth sin cables de Apple están en oferta</title>
+    <link href="https://www.applesfera.com/seleccion/mejores-completos-auriculares-bluetooth-cables-apple-estan-oferta" />
+    <id>https://www.applesfera.com/seleccion/mejores-completos-auriculares-bluetooth-cables-apple-estan-oferta</id>
+    <summary>Los AirPods Pro de 2ª generación ofrecen cancelación activa de ruido de primer nivel, audio espacial con seguimiento dinámico de la cabeza y buena autonomía</summary>
+    <published>2024-01-29T15:20:00Z</published>
+    <author>
+      <name>Jesús Quesada</name>
+      <email>jesusquesada@gmail.com</email>
+    </author>
+  </entry>
+
+</feed>
