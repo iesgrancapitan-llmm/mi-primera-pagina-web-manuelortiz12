@@ -74,9 +74,8 @@ Utiliza el lector/agregador feedly para añadir el fichero RSS que has creado.
 
 Muestra una captura del contenido de la sindicación del contenido
 
-![alt](Captura%20de%20pantalla%202024-02-20%20185349.png)
-![alt](Captura%20de%20pantalla%202024-02-20%20185332.png)
-
+  ![alt](feedly.png)
+  ![alt](feedlyatom.png)
 
 De interés:
 - https://datatracker.ietf.org/doc/html/rfc4287
