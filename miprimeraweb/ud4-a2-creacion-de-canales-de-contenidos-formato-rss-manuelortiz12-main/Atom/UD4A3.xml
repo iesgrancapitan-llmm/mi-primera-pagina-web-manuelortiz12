@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Github Pages</title>
+  <link href="https://solid-spork-wo5619r.pages.github.io" />
+  <subtitle>Mi Github pages</subtitle>
+  <category term="NOTICIAS" />
+  <id>urn:uuid:0dc6ab46-94aa-4531-a24c-c1bfab2065c9</id>
+  <updated>2024-02-20T20:12:00Z</updated>
+
+  <entry>
+    <title>Fekir, el 'falso nueve' al que tientan desde Arabia</title>
+    <link href="https://www.marca.com/futbol/betis/2024/01/28/65b6368c22601d6d5d8b459f.html" />
+    <id>urn:uuid:e20766fe-8007-42ef-9e14-e88790e6d0a8</id>
+    <summary>El francés jugó casi un año después de su grave lesión de rodilla su primer partido como titular en LaLiga cambiando de posición</summary>
+    <updated>2024-01-28T17:12:00Z</updated>
+    <author>
+      <name>Miguel A. Morán</name>
+      <email>miguelamoran@gmail.com</email>
+    </author>
+  </entry>
+
+  <entry>
+    <title>La UE acuerda endurecer la ley de aguas residuales por la que España ya paga una fuerte multa</title>
+    <link href="https://elpais.com/clima-y-medio-ambiente/2024-01-29/la-ue-acuerda-endurecer-la-ley-de-aguas-residuales-por-la-que-espana-ya-paga-una-fuerte-multa.html" />
+    <id>urn:uuid:7b30de65-3e12-41a0-8b19-4d4b433e0e69</id>
+    <summary>La Eurocámara y el Consejo de la UE llegan a un acuerdo, todavía por ratificar, que actualiza la normativa sobre recogida, tratamiento y vertido de aguas residuales urbanas, una ley por la que la Comisión volvió a llevar a España ante la justicia europea en diciembre</summary>
+    <updated>2024-01-29T00:08:00Z</updated>
+    <author>
+      <name>Silvia Ayuso</name>
+      <email>silviayuso@gmail.com</email>
+    </author>
+  </entry>
+
+  <entry>
+    <title>El ser humano no está hecho para correr, sino para descansar. Al menos según un profesor de Harvard</title>
+    <link href="https://www.xataka.com/medicina-y-salud/ser-humano-no-esta-hecho-para-correr-sino-para-descansar-al-profesor-harvard" />
+    <id>urn:uuid:c7041d20-2c7d-4a75-942d-3e6af6f58bd5</id>
+    <summary>Hay razones evolutivas que nos hacen querer ahorrar energía. Entenderlas nos ayuda a estar en forma</summary>
+    <updated>2024-01-29T21:30:00Z</updated>
+    <author>
+      <name>Javier Jiménez</name>
+      <email>javierjimenez@gmail.com</email>
+    </author>
+  </entry>
+
+  <entry>
+    <title>Los mejores y más completos auriculares Bluetooth sin cables de Apple están en oferta</title>
+    <link href="https://www.applesfera.com/seleccion/mejores-completos-auriculares-bluetooth-cables-apple-estan-oferta" />
+    <id>urn:uuid:36d66a7a-569e-42fc-ba1b-9e47f475742c</id>
+    <summary>Los AirPods Pro de 2ª generación ofrecen cancelación activa de ruido de primer nivel, audio espacial con seguimiento dinámico de la cabeza y buena autonomía</summary>
+    <updated>2024-01-29T15:20:00Z</updated>
+    <author>
+      <name>Jesús Quesada</name>
+      <email>jesusquesada@gmail.com</email>
+    </author>
+  </entry>
+
+</feed>
