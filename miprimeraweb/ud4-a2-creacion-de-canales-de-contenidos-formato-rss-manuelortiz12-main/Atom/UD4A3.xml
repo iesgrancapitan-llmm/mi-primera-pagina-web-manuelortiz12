@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title>Github Pages</title>
+  <title>Github Pages ATOM</title>
   <link href="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-manuelortiz12/" />
   <subtitle>Mi Github pages</subtitle>
   <category term="NOTICIAS" />
@@ -10,7 +10,7 @@
 
   <entry>
     <title>Esta canción tiene el record de veces copiadas su enlace de Youtube.</title>
-    <link href="https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-manuelortiz12/" />
+    <link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" />
     <id>urn:uuid:e20766fe-8007-42ef-9e14-e88790e6d0a8</id>
     <summary>Vídeo de una canción famosa</summary>
     <updated>2024-01-28T17:12:00Z</updated>
