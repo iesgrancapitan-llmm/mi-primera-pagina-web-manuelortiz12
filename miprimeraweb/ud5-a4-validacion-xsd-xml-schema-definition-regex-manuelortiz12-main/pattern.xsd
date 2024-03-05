@@ -1,0 +1,39 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="pattern">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="dni" type="dniType" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="matricula" type="matriculaType" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="mac" type="macType" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="ip" type="ipType" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="decimal" type="xs:decimal" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="dniType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="^\d{8}\s*[A-Za-z]$"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="matriculaType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="^\d{4}\s[A-Za-z]{3}$"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="macType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="^([0-9A-Fa-f]{2}[:-]){5}([0-9A-Fa-f]{2})$"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="ipType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="^((25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9])\.){3}(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9])$"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>
