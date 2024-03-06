@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="ejercicio4.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-model href="ejercicio5.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <Personas>
     <Persona>
         <Datos>
@@ -13,6 +13,11 @@
             <Mes>Febrero</Mes>
             <Anno>1990</Anno>
         </FechaNacimiento>
+        <FormaPago>
+            <Tarjeta>
+                <NumeroTarjeta>1234-5678-9012-3456</NumeroTarjeta>
+            </Tarjeta>
+        </FormaPago>
     </Persona>
     <Persona>
         <Datos>
@@ -21,10 +26,10 @@
             <DNI>98765432B</DNI>
         </Datos>
         <Comentario>Breve descripción de María.</Comentario>
-        <FechaNacimiento>
-            <Dia>20</Dia>
-            <Mes>Julio</Mes>
-            <Anno>1985</Anno>
-        </FechaNacimiento>
+        <FormaPago>
+            <Transferencia>
+                <NumeroCuenta>ES1234567890123456789012</NumeroCuenta>
+            </Transferencia>
+        </FormaPago>
     </Persona>
 </Personas>

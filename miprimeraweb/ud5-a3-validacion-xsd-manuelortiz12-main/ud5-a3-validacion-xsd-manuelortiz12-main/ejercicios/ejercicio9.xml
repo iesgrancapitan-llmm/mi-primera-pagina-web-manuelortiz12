@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ejercicio9.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<precios>
+    <temporada_alta>170.25</temporada_alta>
+    <temporada_baja>111.23</temporada_baja>
+    <temporada_media>100.00</temporada_media>
+</precios>

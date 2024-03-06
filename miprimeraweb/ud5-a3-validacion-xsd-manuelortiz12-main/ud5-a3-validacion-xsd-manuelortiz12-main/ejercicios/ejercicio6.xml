@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ejercicio6.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<Personas>
+    <Persona>
+        <Comentario>Breve descripción de Carlos.</Comentario>
+        <FechaNacimiento>
+            <Dia>15</Dia>
+            <Mes>Febrero</Mes>
+            <Anno>1990</Anno>
+        </FechaNacimiento>
+        <Datos>
+            <Nombre>Carlos</Nombre>
+            <Apellidos>González Pérez</Apellidos>
+            <DNI>12345678A</DNI>
+        </Datos>
+        <FormaPago>
+            <Tarjeta>
+                <NumeroTarjeta>1234-5678-9012-3456</NumeroTarjeta>
+            </Tarjeta>
+        </FormaPago>
+    </Persona>
+    <Persona>
+        <Datos>
+            <Nombre>María</Nombre>
+            <Apellidos>López Martínez</Apellidos>
+            <DNI>98765432B</DNI>
+        </Datos>
+        <Comentario>Breve descripción de María.</Comentario>
+        <FormaPago>
+            <Transferencia>
+                <NumeroCuenta>ES1234567890123456789012</NumeroCuenta>
+            </Transferencia>
+        </FormaPago>
+    </Persona>
+</Personas>

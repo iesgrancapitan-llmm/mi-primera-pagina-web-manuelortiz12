@@ -46,4 +46,35 @@ De interés:
 
 ## Ejercicio 3
 
-[Ejercicio 3](ejercicios2/ejercicio3.xml)
+[Ejercicio 3](ejercicios/ejercicio3.xml)
+[XSD](ejercicios/ejercicio3.xsd)
+
+## Ejercicio 4
+[Ejercicio 4](ejercicios/ejercicio4.xml)
+[XSD](ejercicios/ejercicio4.xsd)
+
+## Ejercicio 5 
+
+[Ejercicio 5](ejercicios/ejercicio5.xml)
+[XSD](ejercicios/ejercicio5.xsd)
+
+## Ejercicio 6
+[Ejercicio 6](ejercicios/ejercicio6.xml)
+[XSD](ejercicios/ejercicio6.xsd)
+
+## Ejercicio 7
+[Ejercicio 7](ejercicios/ejercicio7.xml)
+[XSD](ejercicios/ejercicio7.xsd)
+
+## Ejercicio 8
+[Ejercicio 8](ejercicios/ejercicio8.xml)
+[XSD](ejercicios/ejercicio8.xsd)
+
+## Ejercicio 9 
+[Ejercicio 9](ejercicios/ejercicio9.xml)
+[XSD](ejercicios/ejercicio9.xsd)
+
+## Ejercicio Factura
+
+[Factura](ejercicios/factura.xml)
+[XSD](ejercicios/factura.xsd)

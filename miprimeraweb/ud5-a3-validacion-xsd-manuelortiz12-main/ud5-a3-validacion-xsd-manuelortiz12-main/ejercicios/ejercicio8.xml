@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ejercicio8.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<examenes>
+    <examen numero="1">
+        <nombre>Raúl García</nombre>
+        <nota>6</nota>
+    </examen>
+    <examen numero="2">
+        <nombre>Miguel Feria</nombre>
+        <nota>8</nota>
+    </examen>
+</examenes>
