@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Definición de elementos simples -->
+  <xs:element name="nombre" type="xs:string"/>
+  <xs:element name="edad" type="xs:int"/>
+  
+  <!-- Definición de atributos -->
+  <xs:attribute name="codigo" type="xs:integer"/>
+
+  <!-- Definición de elementos complejos -->
+  <xs:element name="persona">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombre"/>
+        <xs:element ref="edad"/>
+      </xs:sequence>
+      <xs:attribute ref="codigo"/>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Definición de tipos simples -->
+  <xs:simpleType name="telefono">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{9}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Definición de tipos complejos -->
+  <xs:complexType name="direccion">
+    <xs:sequence>
+      <xs:element name="calle" type="xs:string"/>
+      <xs:element name="ciudad" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Elemento raíz -->
+  <xs:element name="raiz" type="xs:string"/>
+
+</xs:schema>
