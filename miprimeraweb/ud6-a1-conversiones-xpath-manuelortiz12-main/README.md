@@ -78,16 +78,42 @@ En esta página hay un [formulario](https://demo.guru99.com/test/selenium-xpath.
 
 Abre las herramientas del navegador y entrega los pantallazos de los siguientes accesos desde consola. Marca la expresión XPath usada en cada caso:
 - Selecciona todos los inputs
-  
+  ![alt](capturas/xpath1.png)
 - Selecciona el elemento submit
+- ![alt](capturas/xpath2.png)
 - Selecciona el  elemento reset
+- ![alt](capturas/xpath3.png)
 - Selecciona todos los label
+- ![alt](capturas/xpath4.png)
 - Selecciona todos los elementos del documento //*
+- ![alt](capturas/xpath5.png)
 - Selecciona el elemento con contenido "User-ID must not be blank"
+- ![alt](capturas/xpath6.png)
 
 ## Tarea 2 
 Abre el [XPath Tester - Evaluator](https://www.freeformatter.com/xpath-tester.html#ad-output) y envía pantallazos del ejemplo particularizado con un actor y un cantante de tu propia cosecha.
 
+1. ![alt](capturas/t1.png)
+2. ![alt](capturas/t2.png)
+3. ![alt](capturas/t3.png)
+4. ![alt](capturas/t4.png)
+5. ![alt](capturas/t5.png)
+6. ![alt](capturas/t6.png)
+7. ![alt](capturas/t7.png)
+8. ![alt](capturas/t8.png)
+9. ![alt](capturas/t9.png)
+10. ![alt](capturas/t10.png)
+11. ![alt](capturas/t11.png)
+12. ![alt](capturas/t12.png)
+13. ![alt](capturas/t13.png)
+14. ![alt](capturas/14.png)
+15. ![alt](capturas/t15.png)
+16. ![alt](capturas/t16.png)
+17. ![alt](capturas/t17.png)
+18. ![alt](capturas/t18.png)
+19. ![alt](capturas/t19.png)
+20. ![alt](capturas/t20.png)
+21. ![alt](capturas/21.png)
 
 
 De interés
