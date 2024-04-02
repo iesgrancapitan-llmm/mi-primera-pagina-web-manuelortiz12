@@ -1,0 +1,49 @@
+componentes {
+display: block;
+font-family: sans-serif;
+}
+titulo {
+display: block;
+color: darkblue;
+font-weight: 600;
+font-size: 22pt;
+margin: 0.5em;
+text-decoration: underline;
+}
+componente {
+display: block;
+float: left;
+border: 2px solid black;
+border-radius: 10px;
+width: 15%;
+margin: 1em;
+}
+item {
+display: block;
+color: #000080;
+font-weight: 400;
+font-size: 18pt;
+text-align:center;
+}
+fabricante {
+display: block;
+color: #600060;
+font-weight: 400;
+font-size: 18pt;
+margin: 5px;
+}
+modelo {
+display: block;
+color: #006000;
+font-weight: 400;
+font-size: 18pt;
+margin: 5px;
+}
+precio {
+display: block;
+font-family: arial;
+color: #800000;
+font-weight: 400;
+font-size: 18pt;
+margin: 5px;
+}

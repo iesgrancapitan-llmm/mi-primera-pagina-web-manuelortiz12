@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<!-- La siguiente l�nea hace referencia al documento XSLT que har� la transformaci�n -->
+<?xml-stylesheet type="text/xsl" href="transformacion05.xsl"?>
+<agenda>
+    <propietario>
+        <nombre>Ana</nombre>
+        <apellidos>Pinto Ramos</apellidos>
+    </propietario>
+    <contactos>
+        <persona id="p01">
+            <identificadores>
+                <nombre>Maribel</nombre>
+                <apellidos>Lago Santana</apellidos>
+            </identificadores>
+            <direccion>
+                <calle>Mayor 22, 2B</calle>
+                <localidad>Badajoz</localidad>
+                <cp>06002</cp>
+            </direccion>
+            <telefonos>
+                <movil>924111111</movil>
+            </telefonos>
+        </persona>
+        <persona id="p02">
+            <identificadores>
+                <nombre>Roberto</nombre>
+                <apellidos>Ramos Juan</apellidos>
+            </identificadores>
+            <direccion>
+                <calle>La Central 41, 4C</calle>
+                <localidad>Zafra</localidad>
+                <cp>06300</cp>
+            </direccion>
+            <telefonos>
+                <movil>666222222</movil>
+                <casa>924222222</casa>
+            </telefonos>
+        </persona>
+        <persona id="p03">
+            <identificadores>
+                <nombre>Juan</nombre>
+                <apellidos>Lima Ruz</apellidos>
+            </identificadores>
+            <direccion>
+                <calle>Huertos 18</calle>
+                <localidad>Badajoz</localidad>
+                <cp>06004</cp>
+            </direccion>
+            <telefonos>
+                <movil>666333333</movil>
+                <casa>924333333</casa>
+                <trabajo>924343434</trabajo>
+            </telefonos>
+        </persona>
+    </contactos>
+</agenda>

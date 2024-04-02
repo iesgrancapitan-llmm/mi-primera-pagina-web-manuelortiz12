@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="componentes.xsl"?>
+<componentes>
+    <titulo>Componentes de un ordenador</titulo>
+    <componente>
+        <item>Placa base</item>
+        <fabricante>ASUS</fabricante>
+        <modelo>H81-M</modelo>
+        <precio>215</precio>
+    </componente>
+    <componente>
+        <item>Tarjeta gráfica</item>
+        <fabricante>Nvidia</fabricante>
+        <modelo>RTX2650</modelo>
+        <precio>175</precio>
+    </componente>
+    <componente>
+        <item>Disco duro</item>
+        <fabricante>Samsung</fabricante>
+        <modelo>EVO850</modelo>
+        <precio>90</precio>
+    </componente>
+    <componente>
+        <item>Monitor</item>
+        <fabricante>ASUS</fabricante>
+        <modelo>180K</modelo>
+        <precio>290</precio>
+    </componente>
+</componentes>
