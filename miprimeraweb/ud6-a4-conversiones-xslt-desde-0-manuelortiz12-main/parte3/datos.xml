@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datos>
+    <persona>
+        <nombre>Manuel</nombre>
+        <apellido>Ortiz</apellido>
+        <edad>22</edad>
+        <telefono>123456789</telefono>
+    </persona>
+    <persona>
+        <nombre>María</nombre>
+        <apellido>López</apellido>
+        <edad>25</edad>
+        <telefono>987654321</telefono>
+    </persona>
+</datos>
