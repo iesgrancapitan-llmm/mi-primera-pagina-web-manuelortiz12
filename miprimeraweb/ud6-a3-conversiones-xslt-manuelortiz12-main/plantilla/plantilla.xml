@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <libro>
+        <titulo>El Gran Gatsby</titulo>
+        <autor>F. Scott Fitzgerald</autor>
+        <año>1925</año>
+        <precio>12.99</precio>
+    </libro>
+    <libro>
+        <titulo>Matar a un ruiseñor</titulo>
+        <autor>Harper Lee</autor>
+        <año>1960</año>
+        <precio>9.99</precio>
+    </libro>
+</biblioteca>
