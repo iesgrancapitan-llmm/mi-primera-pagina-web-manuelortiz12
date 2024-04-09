@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="transformacion.xsl" type="text/xsl"?>
 <ies nombre="IES Francisco de los Rios" web="http://www.iesfranciscodelosrios.es" >
   <ciclos>
     <ciclo id="ASIR">
