@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="concesionario.xsl" type="text/xsl"?>
+<concesionarios>
+    <concesionario>
+        <nombre>Toloscoches</nombre>
+        <dirección>Avd. Rumanía</dirección>
+        <dueño>Manuel Ortiz Quesada</dueño>
+        <catalogo>
+            <vehiculo tipo="coche">
+                <modelo>Toyota Corolla</modelo>
+                <anno>1998</anno>
+                <precio>3400</precio>
+                <kilometros>100000</kilometros>
+            </vehiculo>
+            <vehiculo tipo="coche">
+                <modelo>Jeep Cherokee</modelo>
+                <anno>2000</anno>
+                <precio>11900</precio>
+                <kilometros>100000</kilometros>
+            </vehiculo>
+            <vehiculo tipo="coche">
+                <modelo>Nissan Skyline R34</modelo>
+                <anno>1998</anno>
+                <precio>25000</precio>
+                <kilometros>152000</kilometros>
+            </vehiculo>
+            <vehiculo tipo="coche">
+                <modelo>Subaru Impreza 2.0</modelo>
+                <anno>1997</anno>
+                <precio>21990</precio>
+                <kilometros>125000</kilometros>
+            </vehiculo>
+            <vehiculo tipo="coche">
+                <modelo>Nissan Fairlady Z</modelo>
+                <anno>1974</anno>
+                <precio>83200</precio>
+                <kilometros>54516</kilometros>
+            </vehiculo>
+            <vehiculo tipo="coche">
+                <modelo>Renault Twingo</modelo>
+                <anno>2008</anno>
+                <precio>4750</precio>
+                <kilometros>48000</kilometros>
+            </vehiculo>
+            <vehiculo tipo="coche">
+                <modelo>Chevrolet Aveo</modelo>
+                <anno>2013</anno>
+                <precio>4500</precio>
+                <kilometros>120000</kilometros>
+            </vehiculo>
+            <vehiculo tipo="coche">
+                <modelo>Lamborghini Countach</modelo>
+                <anno>1974</anno>
+                <precio>638250</precio>
+                <kilometros>60000</kilometros>
+            </vehiculo>
+            <vehiculo tipo="coche">
+                <modelo>Abarth 595</modelo>
+                <anno>2024</anno>
+                <precio>31800</precio>
+                <kilometros>0</kilometros>
+            </vehiculo>
+            <vehiculo tipo="coche">
+                <modelo>Ford Gran Torino</modelo>
+                <anno>2000</anno>
+                <precio>11900</precio>
+                <kilometros>100000</kilometros>
+            </vehiculo>
+            <vehiculo tipo="coche">
+                <modelo>Ford Orion</modelo>
+                <anno>2000</anno>
+                <precio>11900</precio>
+                <kilometros>100000</kilometros>
+            </vehiculo>
+            <vehiculo tipo="coche">
+                <modelo>Mazda RX-5</modelo>
+                <anno>2000</anno>
+                <precio>11900</precio>
+                <kilometros>100000</kilometros>
+            </vehiculo>
+            <vehiculo tipo="coche">
+                <modelo>Fiat 500</modelo>
+                <anno>2000</anno>
+                <precio>11900</precio>
+                <kilometros>100000</kilometros>
+            </vehiculo>
+            <vehiculo tipo="coche">
+                <modelo>Honda Civic</modelo>
+                <anno>2000</anno>
+                <precio>11900</precio>
+                <kilometros>100000</kilometros>
+            </vehiculo>
+        </catalogo>
+    </concesionario>
+</concesionarios>
