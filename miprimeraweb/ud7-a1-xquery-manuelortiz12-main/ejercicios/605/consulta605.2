@@ -1,0 +1,9 @@
+(:El nombre del tutorial y su categoría, ordenado por el nombre de cada categoría.:)
+
+for $tutorial in /tutoriales/tutorial
+order by $tutorial/categoria ascending
+return 
+<tutorial>
+  {$tutorial/categoria}
+  {$tutorial/titulo}
+</tutorial>

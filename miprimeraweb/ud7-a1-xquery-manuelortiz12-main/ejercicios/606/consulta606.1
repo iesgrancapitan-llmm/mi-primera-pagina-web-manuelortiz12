@@ -1,0 +1,16 @@
+(:Una lista que contenga para cada receta, el título como atributo y cada uno de los ingredientes de nivel superior (sin añadir los ingredientes que están dentro de otros ingredientes).:)
+<recetas>
+  { 
+    for $r in /recetas/receta
+    return
+      <receta title="{$r/titulo}">
+      { 
+        for $i in $r/ingrediente
+        return
+          <ingrediente>
+            {string($i/@nombre)}
+          </ingrediente>
+      }
+    </receta> 
+  }
+</recetas>

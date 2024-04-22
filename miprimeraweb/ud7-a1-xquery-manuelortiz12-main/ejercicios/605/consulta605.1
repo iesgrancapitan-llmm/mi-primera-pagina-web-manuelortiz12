@@ -1,0 +1,11 @@
+(:Nombres y apellidos de los autores eliminando los repetidos y acompañados cada nombre por todos sus tutoriales, ordenados alfabéticamente por nombre de autor. Cada autor en una etiqueta <autor> que contendrá una etiqueta <nombreyapellidos> y una etiqueta <titulo>.:)
+
+for $autor in distinct-values(/tutoriales/tutorial/autor)
+for $tutoriales in /tutoriales/tutorial
+order by $autor ascending
+where $tutoriales/autor = $autor
+return 
+  <autor>
+    <nombreyapellidos>{$autor}</nombreyapellidos>
+    <titulo>{$tutoriales/titulo}</titulo>
+  </autor>

@@ -1,0 +1,9 @@
+(:Una lista con cada una de las recetas que contengan el ingrediente harina. Poner el título de la receta como atributo del elemento receta.:)
+
+<recetas>
+{ 
+  for $r in /recetas/receta
+  where $r//ingrediente/@nombre="harina"
+  return <receta title="{$r/titulo}"></receta>
+}
+</recetas>
