@@ -72,24 +72,35 @@ Define una función original e invócala. Envía un pantallazo
 
 Entregas
 - 601 -> [xml](ejercicios/601/601.xml)
-  - consulta1
-  - consulta2
+  - [consulta1](ejercicios/601/consulta601.1)
+  ![alt](ejercicios/601/consulta601.1.png)
+  - [consulta2](ejercicios/601/consulta601.2)
+  ![alt](ejercicios/601/consulta601.2.png)
 - 602 -> [xml](ejercicios/602/602.xml)
-  - consulta1
-  - consulta2
-- 603 -> [xml](ejercicios/602/603.xml)
-  - consulta1
-  - consulta2
-- 604 -> [xml](ejercicios/602/604.xml)
-  - consulta1
-  - consulta2
-- 605 -> [xml](ejercicios/602/605.xml)
-  - consulta1
-  - consulta2
-- 606 -> [xml](ejercicios/602/606.xml)
-  - consulta1
-  - consulta2
-
+  - [consulta1](ejercicios/602/consulta602.1)
+    ![alt](ejercicios/602/consulta602.1.png)
+  - [consulta2](ejercicios/602/consulta602.2)
+    ![alt](ejercicios/602/consulta602.2.png)
+- 603 -> [xml](ejercicios/603/603.xml)
+  - [consulta1](ejercicios/603/consulta603.1)
+    ![alt](ejercicios/603/consulta603.1.png)
+  - [consulta2](ejercicios/603/consulta603.2)
+    ![alt](ejercicios/603/consulta603.2.png)
+- 604 -> [xml](ejercicios/604/604.xml)
+  - [consulta1](ejercicios/604/consulta604.1)
+    ![alt](ejercicios/604/consulta604.1.png)
+  - [consulta2](ejercicios/604/consulta604.2)
+    ![alt](ejercicios/604/consulta604.2.png)
+- 605 -> [xml](ejercicios/605/605.xml)
+  - [consulta1](ejercicios/605/consulta605.1)
+    ![alt](ejercicios/605/consulta605.1.png)
+  - [consulta2](ejercicios/605/consulta605.2)
+    ![alt](ejercicios/605/consulta605.2.png)
+- 606 -> [xml](ejercicios/606/606.xml)
+  - [consulta1](ejercicios/606/consulta606.1)
+    ![alt](ejercicios/606/consulta606.1.png)
+  - [consulta2](ejercicios/606/consulta606.2)
+    ![alt](ejercicios/606/consulta606.2.png)
 
 
 A continuación referencia en el código:

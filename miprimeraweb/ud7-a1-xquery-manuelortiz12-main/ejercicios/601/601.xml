@@ -4,8 +4,8 @@
         <libro publicacion="2008" edicion="1">
             <titulo>XML en acción</titulo>
             <autor>
-                <nombre>Erik</nombre>
-                <apellido>T. Ray</apellido>
+                <nombre>Manuel</nombre>
+                <apellido>Ortiz Quesada</apellido>
             </autor>
             <editorial>Manning Publications</editorial>
             <paginas>650</paginas>

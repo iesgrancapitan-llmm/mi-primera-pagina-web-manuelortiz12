@@ -3,8 +3,8 @@
     <libro ano="1994">
         <titulo>TCP/IP Illustrated</titulo>
         <autor>
-            <apellido>Stevens</apellido>
-            <nombre>W.</nombre>
+            <apellido>Ortiz Quesada</apellido>
+            <nombre>Manuel</nombre>
         </autor>
         <editorial>Addison-Wesley</editorial>
         <precio>65.95</precio>

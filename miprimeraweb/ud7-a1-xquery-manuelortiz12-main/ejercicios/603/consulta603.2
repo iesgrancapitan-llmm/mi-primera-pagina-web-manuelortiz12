@@ -1,0 +1,11 @@
+(:El título del libro, su precio y su precio con el IVA incluido, cada uno con su propia etiqueta. Ordenarlos por precio con IVA.:)
+
+for $libro in /libreria/libro
+let $precio_iva := ($libro/precio * 1.21)
+order by $precio_iva
+return 
+<libro>
+  <titulo>{$libro/titulo/text()}</titulo>
+  <precio>{$libro/precio/text()} €</precio>
+  <precio_iva>{$precio_iva} €</precio_iva>
+</libro>

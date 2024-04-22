@@ -1,0 +1,4 @@
+(:El título y el autor de los libros del año 2005, y etiquetar cada uno de ellos con la etiqueta <lib2005>.:)
+for $libro in /libreria/libro
+where $libro/año=2005
+return <lib2005>{$libro/titulo,$libro/autor}</lib2005>

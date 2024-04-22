@@ -3,8 +3,8 @@
     <tutorial anio="2007">
         <titulo>XMLBeans, una forma de mapear un XML en objetos Java</titulo>
         <autor>
-            <nombre>Alejandro</nombre>
-            <apellidos>Pérez García</apellidos>
+            <nombre>Manuel</nombre>
+            <apellidos>Ortiz Quesada</apellidos>
         </autor>
         <categoria>XML</categoria>
         <visitas>25827</visitas>

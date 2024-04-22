@@ -1,0 +1,4 @@
+(:Título y autor de todos los libros.:)
+
+for $x in /biblioteca/libros/libro
+return <libro>{$x/titulo/text()} - {$x/autor/nombre/text()} {$x/autor/apellido/text()}</libro>

@@ -1,0 +1,9 @@
+(:Por cada libro, obtener su título y el número de autores, agrupados en un elemento <libro>:)
+for $b in /bib/libro 
+return 
+  <libro> 
+    { $b/titulo }
+    <numeroAutores> 
+      {count($b/autor)}
+    </numeroAutores>
+  </libro>
