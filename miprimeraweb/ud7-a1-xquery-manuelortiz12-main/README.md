@@ -71,22 +71,22 @@ Debes personalizar el xml para que aparezca tu nombre y apellidos en el resultad
 Define una función original e invócala. Envía un pantallazo 
 
 Entregas
-- 601 
+- 601 -> [xml](ejercicios/601/601.xml)
   - consulta1
   - consulta2
-- 602 
+- 602 -> [xml](ejercicios/602/602.xml)
   - consulta1
   - consulta2
-- 603 
+- 603 -> [xml](ejercicios/602/603.xml)
   - consulta1
   - consulta2
-- 604 
+- 604 -> [xml](ejercicios/602/604.xml)
   - consulta1
   - consulta2
-- 605 
+- 605 -> [xml](ejercicios/602/605.xml)
   - consulta1
   - consulta2
-- 606
+- 606 -> [xml](ejercicios/602/606.xml)
   - consulta1
   - consulta2
 
