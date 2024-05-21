@@ -37,7 +37,8 @@ El resultado debe ser un documento "index.html" con las siguientes característi
 
 Envía:
 - un pantallazo de la transformación resultante
-- fichero salida.html
+  ![alt](capturas/Captura.PNG)
+- fichero [salida.html](salida.html)
 - [salida.xsl](salida.xsl)
 
 ## Git
