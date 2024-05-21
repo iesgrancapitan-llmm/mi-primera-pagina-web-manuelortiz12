@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Manuel Ortiz Quesada -->
+
+<!DOCTYPE valores SYSTEM "ej1.dtd">
+<valores>
+    <triangulo base="100" />
+    <mascota numero="5677" />
+    <centro_educativo nombre="IES Gran Capitán" />
+    <!-- <abono tipo="cheque">30,4</abono> -->
+    <abono tipo="cheque">30,4</abono>
+</valores>

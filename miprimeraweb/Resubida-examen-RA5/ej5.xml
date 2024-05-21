@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Manuel Ortiz Quesada -->
+
+<?xml-model href="ej5.xsd"?>
+<productos>
+    <producto codigo="12345">
+       <descripcion>Tipo A</descripcion>
+       <cantidad>3</cantidad>
+    </producto>
+    <producto codigo="98765">
+       <descripcion>Tipo B</descripcion>
+       <cantidad>5</cantidad>
+    </producto>
+    <producto codigo="54321">
+       <descripcion>Tipo C</descripcion>
+       <cantidad>2</cantidad>
+    </producto>
+ </productos>
+ <!-- <productos></productos>
+no sería valido-->
+<!-- <producto codigo="sa">
+       <descripcion>Tipo C</descripcion>
+       <cantidad>2</cantidad>
+    </producto> -->

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Manuel Ortiz Quesada -->
+
+<!DOCTYPE biblioteca [
+    <!ELEMENT biblioteca (libro+,prestamo+)>
+    <!ELEMENT libro (titulo,autor)>
+    <!ATTLIST libro id NMTOKEN #REQUIRED>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT autor (#PCDATA)>
+    <!ELEMENT prestamo (fecha)>
+    <!ATTLIST prestamo idref NMTOKEN #REQUIRED>
+    <!ELEMENT fecha (#PCDATA)>
+]>
+
+<biblioteca>
+    <libro id="1">
+        <titulo>Geronimo Stilton</titulo>
+        <autor>Elisabetta Dami</autor>
+    </libro>
+    <libro id="2">
+        <titulo>Mi libro</titulo>
+        <autor>Manuel Ortiz Quesada</autor>
+    </libro>
+    <libro id="3">
+        <titulo>Luna de Plutón</titulo>
+        <autor>Dross</autor>
+    </libro>
+    <prestamo idref="1">
+        <fecha>09-1-2023</fecha>
+    </prestamo>
+    <prestamo idref="1">
+        <fecha>11-11-2023</fecha>
+    </prestamo>
+    <prestamo idref="2">
+        <fecha>30-07-2021</fecha>
+    </prestamo>
+    <prestamo idref="3">
+        <fecha>19-09-2023</fecha>
+    </prestamo>
+    <prestamo idref="3">
+        <fecha>26-05-2024</fecha>
+    </prestamo>
+</biblioteca>

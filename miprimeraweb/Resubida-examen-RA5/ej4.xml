@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Manuel Ortiz Quesada -->
+<?xml-model href="ej4.xsd"?>
+
+<reentrega>
+    <pelicula anno="2023" importante="true">
+        <clasificación>+12</clasificación>
+        <título>Oppenheimer</título>
+        <nacionalidad>Reino Unido</nacionalidad>
+     </pelicula>
+     <proyecto>completo</proyecto>
+</reentrega>

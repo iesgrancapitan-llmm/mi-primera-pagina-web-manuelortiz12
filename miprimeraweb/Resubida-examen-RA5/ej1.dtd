@@ -1,0 +1,10 @@
+<!-- Manuel Ortiz Quesada -->
+<!ELEMENT valores (triangulo,mascota,centro_educativo,abono)>
+<!ELEMENT triangulo EMPTY>
+<!ATTLIST triangulo base CDATA "1">
+<!ELEMENT mascota EMPTY>
+<!ATTLIST mascota numero CDATA #REQUIRED>
+<!ELEMENT centro_educativo EMPTY>
+<!ATTLIST centro_educativo nombre CDATA #FIXED "IES Gran Capitán">
+<!ELEMENT abono (#PCDATA)>
+<!ATTLIST abono tipo (cheque | tarjeta | efectivo) "cheque">

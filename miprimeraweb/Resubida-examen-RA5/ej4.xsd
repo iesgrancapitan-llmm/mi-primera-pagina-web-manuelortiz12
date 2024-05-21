@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Manuel Ortiz Quesada -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="pelicula" type="peliculaType"/>
+    <xs:element name="proyecto" type="proyectoType"/>
+
+    <xs:attribute name="anno" type="xs:string"/>
+    <xs:attribute name="importante" type="xs:boolean" default="false"/>
+
+    <xs:simpleType name="proyectoType">
+        <xs:annotation>
+            <xs:documentation>Hacemos que solo pueda tomar uno de estos valores</xs:documentation>
+        </xs:annotation>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="completo"/>
+                <xs:enumeration value="pendiente"/>
+                <xs:enumeration value="en_progreso"/>
+            </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="peliculaType">
+        <xs:annotation>
+            <xs:documentation>El atributo importante es obligatorio</xs:documentation>
+        </xs:annotation>
+        <xs:all>
+            <xs:element name="título" type="xs:string"/>
+            <xs:element name="nacionalidad" type="xs:string"/>
+            <xs:element name="clasificación" type="xs:string"/>
+        </xs:all>
+        <xs:attribute ref="anno" use="optional"/>
+        <xs:attribute ref="importante" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="reentregaType">
+        <xs:annotation>
+            <xs:documentation>Elemento raíz</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element ref="pelicula"/>
+            <xs:element ref="proyecto"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="reentrega" type="reentregaType"/>
+</xs:schema>
